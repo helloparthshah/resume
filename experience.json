@@ -1,5 +1,6 @@
 [
   {
+    "logo":"https://media-exp1.licdn.com/dms/image/C560BAQHTvZwCx4p2Qg/company-logo_100_100/0/1612205615891?e=1672272000&v=beta&t=7ZHRGEAxA56e8p7wvicYedp6pjLbd2NxUOblE7lIhLk",
     "post": "Software Development Engineer Intern",
     "company": "Amazon",
     "start": "June 2022",
@@ -8,11 +9,39 @@
     "description": "Managed to create a Code Analyzerthat detects bugs and enforces coding practices before deployment which would beused by over 8 teams consisting of over 100 users. Worked with Java and Typescript while building Lambdas, SNS Topics, Pipelines, VPCs, Hosted Zones."
   },
   {
-    "post": "Software Development Engineer Intern",
-    "company": "Amazon",
-    "start": "June 2022",
-    "end": "September 2022",
-    "location": "Seattle, Washington, United States",
-    "description": "Managed to create a Code Analyzerthat detects bugs and enforces coding practices before deployment which would beused by over 8 teams consisting of over 100 users. Worked with Java and Typescript while building Lambdas, SNS Topics, Pipelines, VPCs, Hosted Zones."
+    "logo":"https://media-exp1.licdn.com/dms/image/C4E0BAQHUyyqAqyqI6g/company-logo_100_100/0/1627759129415?e=1672272000&v=beta&t=p9pivyIbh-5LHBEutf6HndlMS5dEkJDbCMcVqR2gXxs",
+    "post": "Junior Developer",
+    "company": "Opal, LLC.",
+    "start": "September 2021",
+    "end": "June 2022",
+    "location": "Remote",
+    "description": "Working with Flask, Django and, ReactJs to create a online NFT marketplace. Leading the Social Media team which is developing a social media platform for users to interact with each other"
+  },
+  {
+    "logo":"https://media-exp1.licdn.com/dms/image/C560BAQGy2CzRKjBHAg/company-logo_100_100/0/1575689603769?e=1672272000&v=beta&t=q6fP3D6stTU3Or9x2fjLhFwsyiaVENpYTNlqLHpUjeA",
+    "post": "Web Developer, Tech Lead",
+    "company": "Google Developer Student Club, UC Davis",
+    "start": "February 2020",
+    "end": "July 2022",
+    "location": "Davis, Ca",
+    "description": " Created the website for Google Developer Student Club, UC Davis using dynamic JavaScript, HTML and CSS. Part of the team that created an Student taught Kotlin Android course."
+  },
+  {
+    "logo":"https://media-exp1.licdn.com/dms/image/C4D0BAQHvAgMyHQXZ3A/company-logo_100_100/0/1601174739527?e=1672272000&v=beta&t=O5WqmsII3fOGfHMZ3lnB5pTuU48PrfJlt5TuLaif7GY",
+    "post": "Workshop Lead",
+    "company": "Bit Project",
+    "start": "October 2019",
+    "end": "February 2020",
+    "location": "Davis, CA",
+    "description": "Got the chance to work closely with companies such as MongoDB, Pusher and, Twitterto host workshops with 50+ audience members. Created various tutorials and learnt MERN Stack, Twitter API, Website designing, JavaScript."
+  },
+  {
+    "logo":"https://media-exp1.licdn.com/dms/image/C510BAQEASvibfm0VEg/company-logo_100_100/0/1558604618454?e=1672272000&v=beta&t=mGL555lZSKq2Re54f8Lbcdrc6Rb3HO1gEvBTCAletgA",
+    "post": "Intern",
+    "company": "Niyantras",
+    "start": "2019",
+    "end": "2019",
+    "location": "Vadodara, IN",
+    "description": "Helped to create a BLE based IOT solution forlow budget systems. Worked on researching different modules and programmed a Raspberry PI to interact with their mobile app."
   }
 ]
