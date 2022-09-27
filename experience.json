@@ -15,6 +15,6 @@
       "end": "September 2022",
       "location": "Seattle, Washington, United States",
       "description":"Managed to create a Code Analyzerthat detects bugs and enforces coding practices before deployment which would beused by over 8 teams consisting of over 100 users. Worked with Java and Typescript while building Lambdas, SNS Topics, Pipelines, VPCs, Hosted Zones."
-    },
+    }
   ]
 }
