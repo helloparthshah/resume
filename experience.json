@@ -1,15 +1,6 @@
 [
   {
     "logo":"https://media-exp1.licdn.com/dms/image/C560BAQHTvZwCx4p2Qg/company-logo_100_100/0/1612205615891?e=1672272000&v=beta&t=7ZHRGEAxA56e8p7wvicYedp6pjLbd2NxUOblE7lIhLk",
-    "post": "Software Development Engineer adasd",
-    "company": "sasdasdas",
-    "start": "June 2022",
-    "end": "September 2022",
-    "location": "Seattle, Washington, United States",
-    "description": "Managed to create a Code Analyzerthat detects bugs and enforces coding practices before deployment which would beused by over 8 teams consisting of over 100 users. Worked with Java and Typescript while building Lambdas, SNS Topics, Pipelines, VPCs, Hosted Zones."
-  },
-  {
-    "logo":"https://media-exp1.licdn.com/dms/image/C560BAQHTvZwCx4p2Qg/company-logo_100_100/0/1612205615891?e=1672272000&v=beta&t=7ZHRGEAxA56e8p7wvicYedp6pjLbd2NxUOblE7lIhLk",
     "post": "Software Development Engineer Intern",
     "company": "Amazon",
     "start": "June 2022",
