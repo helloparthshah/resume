@@ -35,10 +35,8 @@ jobs:
           # The working directory for the latex compiler to be invoked
           working_directory: resume/
           args: -xelatex -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
-          
-      - run: mkdir -p output/
 
       - uses: actions/upload-artifact@v3
         with:
-          name: output/resume.pdf
+          name: resume.pdf
           path: resume/resume.pdf
