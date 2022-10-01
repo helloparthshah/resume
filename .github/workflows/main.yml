@@ -35,5 +35,5 @@ jobs:
           # The working directory for the latex compiler to be invoked
           working_directory: resume/
           # LaTeX engine to be used
-          compiler: xelatex
+          compiler: pdflatex
           args: -xelatex -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
