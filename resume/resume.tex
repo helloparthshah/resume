@@ -89,15 +89,24 @@
 \subsection*{Amazon}
 \medspace|\medspace
 \descript{Software Development Engineer 2}
-\location{July 2023 - Present | Sunnyvale, CA}
+\location{April 2025 - Present | Sunnyvale, CA}
 \vspace{\topsep}
 \begin{tightemize}
-\item Own a cross-org initiative automating operational ticket investigation with AI agents, built on three layers: an operational memory that clusters past tickets by symptom and root cause to generate agentic skills from SOPs, a semantic code graph that makes codebases agent-friendly, and a knowledge layer of wikis, code reviews, and design docs.
-\item Validated generated skills against a holdout set with an actor--critic loop, reaching 90\% accuracy on holdout tickets; skills are discovered dynamically at runtime across teams. Live for 3 teams (30+ engineers) and expanding to multiple orgs, cutting root-cause time from 30--60 minutes to $\sim$10 minutes across 1,200+ tickets a year.
-\item Spearheaded the infrastructure for World Catalog, Amazon's pioneering agent-first global catalog. Engineered data systems to ingest and harmonize products beyond the Amazon ecosystem, powering next-generation AI search tools.
-\item Architected the Progressive Listing Experience (PLE), integrating LLMs to autonomously scrape and map external seller URLs to the complex Amazon catalog schema, drastically reducing seller onboarding friction.
-\item Led a ground-up architecture rewrite of the catalog contribution ingestion pipeline to support modern asynchronous processing required for advanced LLM workflows enhancing end-to-end system traceability and security, while completely overhauling the CI/CD deployment infrastructure to reduce system build times by over 80\%.
-\item Designed and launched 3 net-new microservices utilizing a highly extensible plugin architecture for catalog data validation, creating an execution engine with over 200 custom rules for marketplace translation and image enrichment.
+\item Leading a cross-org effort to automate ticket investigation with AI agents. Live for 3 teams (30+ engineers) with 90\% accuracy on holdout tickets, cutting root-cause time from 30-60 min to $\sim$10 min across 1,200+ tickets a year.
+\item Built the agents' context from three layers: operational memory (past tickets clustered into reusable skills), a semantic code graph, and a knowledge layer of wikis, code reviews and design docs.
+\item Rewrote the seller contribution pipeline end to end to support LLM-based validation and enrichment, cutting CI/CD build times by 80\%+. One of the core projects behind \href{https://www.theinformation.com/articles/amazon-lists-250-million-products-rival-sites-effort-battle-agents}{World Catalog}, which lists 250M+ products from other retailers' sites so they're searchable through Alexa.
+\item Launched 3 microservices with a plugin-based rules engine running 200+ rules for data validation and image enrichment.
+\end{tightemize}
+\sectionsep
+
+\subsection*{Amazon}
+\medspace|\medspace
+\descript{Software Development Engineer 1}
+\location{July 2023 - April 2025 | Sunnyvale, CA}
+\vspace{\topsep}
+\begin{tightemize}
+\item Architected the Progressive Listing Experience, using LLMs to turn a seller's product URL into an Amazon listing.
+\item Built and maintained Amazon's catalog contribution ingestion pipeline.
 \end{tightemize}
 \sectionsep
 
@@ -107,9 +116,9 @@
 \location{June 2022 - Sep 2022 | Sunnyvale, CA}
 \vspace{\topsep}
 \begin{tightemize}
-\item Engineered a custom Code Analyzer to automate bug detection and enforce strict coding standards, directly improving organizational code quality and reducing operational burden.
-\item Successfully championed the tool's integration into the CI/CD pipelines of 8 distinct teams, achieving widespread adoption by over 100 active engineers.
-\item Architected and deployed scalable, secure serverless microservices for the Item Pipeline utilizing Java, TypeScript, AWS Lambda, Amazon SNS, and VPCs.
+\item Built a Code Analyzer that catches bugs and enforces coding standards before deployment.
+\item Rolled it out to the CI/CD pipelines of 8 teams, used by 100+ engineers.
+\item Built serverless microservices for the Item Pipeline with Java, TypeScript, AWS Lambda and SNS.
 \end{tightemize}
 \sectionsep
 
@@ -118,26 +127,36 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Projects}
 
+\subsection*{Kiwi}
+\descript{\medspace|\medspace\href{https://openreview.net/forum?id=wOg6YrFgbA}{Paper}}
+\location{July 2026 - Oct 2026}
+\vspace{\topsep}
+\begin{tightemize}
+\item Built Kiwi's decentralized inference engine, which splits an LLM across a swarm of small machines and streams activations between them peer-to-peer over libp2p.
+\item Handles machines joining and dropping out with VRAM-aware layer assignment, heartbeat-based eviction, rerouting and paged KV cache management.
+\item The team built decentralized LoRA fine-tuning on top of it (43\% faster on 7 workers, instant recovery when a worker drops). Published at the NeurIPS 2026 CODEC-FM workshop.
+\end{tightemize}
+\sectionsep
+
 \subsection*{NAAMSE}
 \descript{\medspace|\medspace\href{https://github.com/helloparthshah/NAAMSE}{GitHub}
 \medspace|\medspace\href{https://arxiv.org/abs/2602.07391}{Paper}}
 \location{Jan 2026 - Present}
 \vspace{\topsep}
 \begin{tightemize}
-\item Engineered the scalable core infrastructure for an evolutionary AI red-teaming framework and fuzzer, optimizing high-throughput execution pipelines for adversarial prompt injection.
-\item Architected the underlying data systems to support real-time attack mutation using genetic algorithms, enabling continuous balancing of Attack Success Rate (ASR) and False Positive Rate (FPR).
-\item Won 2nd place out of 1,500+ submissions at the Berkeley RDI AgentX competition; framework infrastructure was subsequently forked by Mozilla's 0din team.
+\item Built the core of an evolutionary AI red-teaming framework that uses genetic algorithms to mutate prompt-injection attacks.
+\item 2nd place out of 1,500+ submissions at Berkeley RDI's AgentX competition. Later forked by Mozilla's 0din team.
 \end{tightemize}
 \sectionsep
 
 \subsection*{HASHIRU}
 \descript{\medspace|\medspace\href{https://github.com/helloparthshah/HASHIRU}{GitHub}
 \medspace|\medspace\href{https://arxiv.org/abs/2506.04255}{Paper}}
-\location{Early 2026}
+\location{Jan 2026 - March 2026}
 \vspace{\topsep}
 \begin{tightemize}
-\item Architected a budget-aware multi-agent orchestration framework (Hierarchical Agent System for Hybrid Intelligent Resource Utilization) enabling highly distributed workload management.
-\item Built robust cost-optimization controls to strictly manage resource compute constraints, inference expenses, and token budgeting across parallel LLM agent execution streams.
+\item Built a budget-aware multi-agent framework where a `CEO' agent manages specialized `employee' agents.
+\item Keeps compute, inference cost and token usage within budget across parallel agents.
 \end{tightemize}
 \sectionsep
 
@@ -148,8 +167,8 @@
 \location{Jan 2023 - June 2023}
 \vspace{\topsep}
 \begin{tightemize}
-\item Engineered advanced search functionality and a comprehensive categorization system for the gem5 Resource Infrastructure, enhancing resource discovery for computer architecture researchers.
-\item Architected extensible database integrations to support diverse storage and retrieval options, providing developers with robust tools for managing simulator resources.
+\item Built search and categorization for the gem5 Resources site, making simulator resources easier to find.
+\item Added support for multiple database backends for storing and serving resources.
 \end{tightemize}
 \sectionsep
 
@@ -158,8 +177,8 @@
 \location{July 2022}
 \vspace{\topsep}
 \begin{tightemize}
-\item Reverse-engineered and bypassed Google Stadia Controller hardware constraints, implementing a websocket-based architecture to enable universal wireless connectivity.
-\item Open-sourced the solution, accumulating 450+ GitHub stars and earning features in major tech publications including The Verge and Ars Technica.
+\item Made the Google Stadia controller work wirelessly on any device using WebSockets.
+\item 450+ GitHub stars, covered by The Verge and Ars Technica.
 \end{tightemize}
 
 \end{document}
